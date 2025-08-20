@@ -1,29 +1,26 @@
 .pie {
-    background-color: #000; // fondo negro
+    background-color: $negro;
     padding: 1rem 0;
     text-align: center;
+    height: 7rem;
 }
 .derechos-footer {
-    background-color: #ccc; // gris claro
-    color: #000;            // texto negro
+    background-color: $gris;
+    color: $negro;
     width: 100%;
     margin: 0;
-    padding: 0.5rem 0;
-    font-size: 0.9rem;
+    padding: 0.2rem 0;
+    font-size: 0.7rem;
 }
 
 .footer-contenedor {
     display: flex;
     justify-content: center;
-    gap: 3rem;              // separación entre imágenes
+    gap: 3rem;
     margin-top: 1rem;
 }
 a img {
-    width: 4rem;
-    height: 4rem;
-    object-fit: cover;     // mantiene proporción
-    transition: transform 0.3s ease;
-}
-&:hover {
-    transform: scale(1.2); // efecto hover
+    width: 2rem;
+    height: 2rem;
+    object-fit: cover;
 }
