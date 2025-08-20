@@ -89,7 +89,7 @@ main form {
 
 .carousel-caption {
   display: block !important;
-  font-size: rem;
+  font-size: 1rem;
 }
 
 .titulo-carrousel {
@@ -168,4 +168,4 @@ footer img {
   }
 }
 
-/*# sourceMappingURL=style.css.map */
+
