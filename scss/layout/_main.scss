@@ -21,4 +21,11 @@ main h2{
   height: 50vw;         
   object-fit: cover;    
 }
-
+main form{ 
+  display: flex; 
+  flex-direction: column; 
+  text-align: center; 
+  color: #ffffff; 
+  flex-wrap: nowrap; 
+  align-items: center;
+}
