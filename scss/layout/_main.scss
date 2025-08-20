@@ -1,0 +1,24 @@
+main{
+    background-color: $negro;
+}
+main h2{ 
+    text-align: center;
+    font-size: 18px; 
+    color: $blanco;
+}
+.carousel-item.active .carousel-caption {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.carousel-caption {
+  opacity: 0;
+  transform: translateY(20px);
+  transition: transform 1s ease-in-out;
+}
+.carousel-item img {
+  width: 100%;           // ocupa todo el ancho del carrusel
+  height: 50vw;         // fijá la altura que quieras
+  object-fit: cover;     // mantiene proporción y recorta si es necesario
+}
+
