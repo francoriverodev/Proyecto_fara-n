@@ -17,8 +17,8 @@ main h2{
   transition: transform 1s ease-in-out;
 }
 .carousel-item img {
-  width: 100%;           // ocupa todo el ancho del carrusel
-  height: 50vw;         // fijá la altura que quieras
-  object-fit: cover;     // mantiene proporción y recorta si es necesario
+  width: 100%;           
+  height: 50vw;         
+  object-fit: cover;    
 }
 
