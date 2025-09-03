@@ -21,11 +21,28 @@ main h2{
   height: 50vw;         
   object-fit: cover;    
 }
-main form{ 
-  display: flex; 
-  flex-direction: column; 
-  text-align: center; 
-  color: #ffffff; 
-  flex-wrap: nowrap; 
-  align-items: center;
+.contenedor-contactos {
+    display: flex; /* Para alinear los dos divs en fila */
+    justify-content: space-between; /* Espacio entre los elementos */
+    align-items: flex-start; /* Alinea al inicio verticalmente */
+    gap: 40px; /* Espacio entre los divs */
+    padding: 20px;
+}
+
+.contenedor-contactos > div:first-child {
+    flex: 1; /* Toma un espacio proporcional */
+}
+
+.contenedor-contactos > div:last-child {
+    flex: 1; /* Toma un espacio proporcional */
+    display: flex;
+    flex-direction: column; /* Para que el formulario sea columna */
+}
+
+/* Opcional: estilos para inputs y textarea */
+form input, form textarea, form select {
+    width: 100%;
+    margin-bottom: 15px;
+    padding: 8px;
+    box-sizing: border-box;
 }
