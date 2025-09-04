@@ -26,6 +26,17 @@ main h2{
   flex-direction: column;
   margin: 5vw;
 }
+.info-main{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.card-main{
+  width: 35rem;
+  max-width: fit-content;
+  margin: 1rem;
+  background-color: $naranja;
+}
 .intro-contacto{
   padding: 10vw;
   text-align: center;
@@ -38,4 +49,11 @@ form input, form textarea, form select {
   margin-bottom: 15px;
   padding: 8px;
   box-sizing: border-box;
+  
+}
+.form-contacto label{
+  color: $naranja
+}
+.intro-contacto p{
+  color: rgb(134, 134, 134);
 }
