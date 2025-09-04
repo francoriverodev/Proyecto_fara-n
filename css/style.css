@@ -1,9 +1,26 @@
 .index-header {
+  display: flex;
+  justify-content: end;
+  align-items: center;
   background-image: url(../img/portfaraon.jpg);
   background-size: cover;
   background-position: center;
-  height: 65vw;
+  height: 55vh;
+  width: 100%;
   position: relative;
+  margin-top: 50px;
+}
+
+.intro-inferior {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-right: 5%;
+  width: 50%;
+}
+
+.intro-inferior p {
+  font-size: 0.75rem;
 }
 
 .navbar a {
@@ -90,13 +107,13 @@ a img {
 
 @media only screen and (min-width: 800px) {
   .index-header {
-    height: 60vh;
+    height: 103vh;
   }
   .intro-inferior h1 {
-    font-size: 3.5rem;
+    font-size: 3rem;
   }
   .intro-inferior p {
-    font-size: 2rem;
+    font-size: 1.5rem;
   }
   main h2 {
     font-size: 25px;
